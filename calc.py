@@ -33,5 +33,5 @@ elif (op == '*'):
 elif (op == '/'):
     div(a, b)
 
-else:
+else:   
     print("Invalid operation")
