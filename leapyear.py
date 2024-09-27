@@ -17,4 +17,4 @@ def checkLeap(a):
 
 a = int(input("Enter the year : "))
 
-print(checkLeap(a))
+print(checkLeap(a)) 
