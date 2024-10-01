@@ -10,6 +10,6 @@ def sqrt(a):
 
 a = int(input("Enter the number : "))
 
-print(cube(a))
-print(square(a))
-print(sqrt(a))
+print("Cube = ", cube(a))
+print("Square = ", square(a))
+print("Square Root = ", sqrt(a))
