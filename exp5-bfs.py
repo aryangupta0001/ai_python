@@ -11,7 +11,7 @@ queue = []
 
 def bfs(start, target, graph, queue, visited):
     if start not in visited:
-        print(start)
+        print(start, end=  '\t')
     
         visited.append(start)
         queue = queue + [x  for x in graph[start] if x [0][0] not in visited]
