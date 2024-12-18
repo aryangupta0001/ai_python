@@ -34,7 +34,7 @@ clf_gini = DecisionTreeClassifier(criterion='gini', max_depth=3, random_state=0)
 clf_gini.fit(x_train, y_train)
 
 y_pred_gini = clf_gini.predict(x_test)
-
+ 
 
 print("Model accuracy score with criterion gini index {0:0.4f}".format(accuracy_score(y_test, y_pred_gini)))
 
