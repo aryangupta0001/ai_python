@@ -1,8 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("./exp-6_iris_dataset/iris_data.csv")
+df = pd.read_csv("./exp-6_iris_dataset_visualisation/iris_data.csv")
 print(df.head())
+
+print(df.shape)
+print(df.dtypes)
 x_axis = 'sepal_length'
 y_axis = 'sepal_width'
 title = "Sepal Length v/s Width"
